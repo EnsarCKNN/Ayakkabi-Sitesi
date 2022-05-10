@@ -1,0 +1,89 @@
+*
+{   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:0;
+    padding: 0;
+    
+    
+}
+
+body
+{
+    background: #000000 url(images/ayakkabı.jpeg);
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    display:flex;
+    background-size: cover;
+}
+
+form{
+    width:305px;
+    height:500px;
+    background: #262626;
+    display:inline-flex;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 15px;
+    position:relative;
+}
+
+form h2{
+    color: azure;
+    margin-bottom: 30px;
+    font-size: 45px;
+    margin-bottom: 33px;
+    margin-top: 35px;
+    
+}
+
+form input {
+    height:20px;
+    width:70%;
+    text-align: center;
+    border:none;
+    background: none;
+    outline: none;
+    outline-style: auto;
+    padding: 10px;
+    margin:10px;
+    color:white;
+    transition: 0.2s ease-in;
+    border-radius: 40px;
+    
+}
+
+form input[type="text"], form input[type="password"]{
+    border:solid 1px #5e0e0e
+}
+
+form input[type="submit"]{
+    border:solid 2px #5e0e0e;
+    box-sizing: border-box;
+    height:50px;
+    width:40%;
+    cursor: pointer;
+}
+form input[type="text"]:focus, form input[type="password"]:focus{
+    width:80%;
+    
+}
+
+form input[type="text"]:focus, form input[type="password"]:focus{
+    width:80%;
+   
+}
+
+form input[type="submit"]:hover{
+    
+}
+
+.link{
+  position:absolute;
+  bottom:3rem;
+  background:transparent;
+  padding:1.5rem 3.5rem;
+}

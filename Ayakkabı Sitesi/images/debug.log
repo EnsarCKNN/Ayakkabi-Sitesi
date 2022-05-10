@@ -1,0 +1,4 @@
+[0115/191134.856:INFO:CONSOLE(1)] "marketingtech.adobe.launch.environment invalid. Falling back to "production".", source: https://www.adobe.com/marketingtech/main.min.js (1)
+[0115/191135.760:INFO:CONSOLE(19)] "🚀 container.buildInfo.environment is deprecated.Please use `container.environment.stage` instead", source: https://assets.adobedtm.com/launch-EN919758db9a654a17bac7d184b99c4820.min.js (19)
+[0115/191135.866:INFO:CONSOLE(6)] "[object Object]", source: https://workflow.licenses.adobe.com/main.js (6)
+[0115/191135.969:INFO:CONSOLE(6)] "[object Object]", source: https://workflow.licenses.adobe.com/main.js (6)
